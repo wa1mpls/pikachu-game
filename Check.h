@@ -1,0 +1,12 @@
+#include"Library.h" ; 
+int check_line_row(Pokemon** A, int row, int col1, int col2, int R, int C);
+int check_line_col(Pokemon** A, int col, int row1, int row2, int R, int C);
+bool check_L(Pokemon** A, point p1, point p2, int R, int C);
+bool check_Z_row(Pokemon** A, point p1, point p2, int R, int C);
+bool check_Z_col(Pokemon** A, point p1, point p2, int R, int C);
+bool check_U_row(Pokemon** A, point p1, point p2, int R, int C);
+bool check_U_col(Pokemon** A, point p1, point p2, int R, int C);
+bool is_score(Pokemon** A, int R, int C, point p1, point p2);
+bool is_continue(Pokemon** A, int row, int col);
+void rand_again(Pokemon** A, int row, int col);
+bool is_end_game(Pokemon** A, int row, int col);
